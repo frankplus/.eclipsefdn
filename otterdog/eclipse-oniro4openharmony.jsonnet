@@ -508,5 +508,13 @@ orgs.newOrg('oniro.oniro4openharmony', 'eclipse-oniro4openharmony') {
       description: "Yanlink SoC support packages",
       homepage: "",
     },
+    orgs.newRepo('app-Tele4Watch') {
+      allow_auto_merge: true,
+      allow_squash_merge: false,
+      allow_update_branch: false,
+      default_branch: "main",
+      description: "A Telegram client for OpenHarmony wearable",
+      homepage: "",
+    },
   ],
 }
