@@ -516,5 +516,15 @@ orgs.newOrg('oniro.oniro4openharmony', 'eclipse-oniro4openharmony') {
       description: "A Telegram client for OpenHarmony wearable",
       homepage: "",
     },
+    orgs.newRepo('libhybris') {
+      allow_auto_merge: true,
+      allow_squash_merge: false,
+      allow_update_branch: false,
+      default_branch: "master",
+      description: "Fork of libhybris, a solution that allow us to use bionic-based HW adaptations in musl based OpenHarmony system",
+      homepage: "",
+      forked_repository: "libhybris/libhybris",
+      fork_default_branch_only: true,
+    },
   ],
 }
