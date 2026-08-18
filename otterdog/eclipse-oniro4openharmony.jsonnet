@@ -526,5 +526,13 @@ orgs.newOrg('oniro.oniro4openharmony', 'eclipse-oniro4openharmony') {
       forked_repository: "libhybris/libhybris",
       fork_default_branch_only: true,
     },
+    orgs.newRepo('app-MediClear') {
+      allow_auto_merge: true,
+      allow_squash_merge: false,
+      allow_update_branch: false,
+      default_branch: "main",
+      description: "An AI mobile app that turns complex medicine labels into clear dosage, safety, and reminder guides",
+      homepage: "",
+    },
   ],
 }
